@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Credit - https://askubuntu.com/a/911872
+
+sudo du -cha --max-depth=1 / | grep -E "M|G"
